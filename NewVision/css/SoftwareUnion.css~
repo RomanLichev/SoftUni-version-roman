@@ -1,0 +1,282 @@
+﻿body {
+    font-size:10px;
+}
+#page-header {
+    background-color:#1C3954;
+    padding-bottom:50px;
+    padding-top:30px;
+    padding-left:50px;
+    padding-right:50px;
+}
+            /*Logo and headtext CSS*/
+#ballot{
+float: right;
+margin-top: 8px;
+margin-right: 0.5%;
+}
+#headtext {
+    display:inline-block;
+    float:right;
+    font-size:2em;
+}
+#headfix {
+    display:block;
+    margin-bottom:20px;
+}
+#logo {
+    margin-left:13%;
+    display:inline-block;
+    max-width:100%;
+}
+#headtext span {
+    font-size:1.5em;
+    margin-right:20px;
+}
+#headtext span:nth-child(1) {
+    color:white;
+}
+#headtext span:nth-child(2) {
+    color:green;
+}
+#headtext span:nth-child(3) {
+    color:red;
+}
+#headtext span:nth-child(4) {
+    color:white;
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    margin-top:4%;
+}
+@media (max-width: 980px) {
+    #headtext {
+        margin-right:2%;
+        font-size: 1.6em;
+    }
+    #logo {
+        margin-left:5%;
+    }
+}
+@media (max-width: 900px) {
+    #headtext {
+        margin-right:0%;
+    }
+    #logo {
+        margin-left:0%;
+    }
+    #ballot{
+			display:none;    
+    }
+}
+@media (max-width: 800px) {
+    #logo {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #headtext {
+        display:none;
+    }
+    #page-header {
+        padding:2%;
+    }
+}
+        /* END Logo and headtext CSS*/
+
+        /*Navigation CSS*/
+
+#page-header nav ul {
+    list-style-type:none;
+    float:right;
+    display:block;
+    margin-top:15px;
+}
+#page-header nav ul li {
+    display:inline-block;
+    padding-left:10px;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+#page-header nav ul li a {
+    text-decoration:none;
+    font-weight:bold;
+    padding-bottom:10px;
+    font-size:1.5em;
+}
+.whitetext {
+    color:white;
+}
+.greentext {
+    color:green;
+}
+.redtext {
+    color:red;
+}
+#page-header nav ul li a:hover {
+    text-decoration:underline;
+}
+@media (max-width:900px) {
+    #page-header nav ul li {
+        font-size:0.8em;
+    }
+    #page-header nav ul {
+        display:block;
+        float:none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media (max-width:700px) {
+    #page-header nav ul li {
+        display:block;
+        
+        margin-left:0px;
+        width:100%;
+        text-align:center;
+    }
+    #page-header nav ul {
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+        padding-left:0px;
+    }
+}
+/*---------------------------------------------------------------------------------------------------------------------
+          END CSS for header
+---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------
+          Footer CSS
+-------------------------------------------------------------------------------------------------------------------*/
+#mainfooter {
+    background-color:#1C3954;
+    margin-top:20px;
+    padding:1% 0;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:1.3em;
+}
+
+#mainfooter ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+#mainfooter ul li {
+    font-size:0.7em;
+}
+#mainfooter ul li a {
+    color:white;
+    text-decoration:none;
+}
+#mainfooter div {
+    display:inline-block;
+    vertical-align:top;
+    margin-right:5%;
+}
+#mainfooter img {
+    padding-bottom:5px;
+}
+#mainfooter hr {
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+#mainfooter span {
+    font-size:0.8em;
+}
+/*END Footer CSS*/
+
+/*Section CSS*/
+
+#wrapper{
+	background-image: url('../img/bodyfon.png');
+	background-repeat: repeat-y;
+	background-position:center;
+}
+.content {
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2%;
+    font-size:1.4em;
+    line-height: 1.7em;
+}
+.content h1 {
+    text-align:left;
+    font-size:1.6em;
+    color:#234465;
+}
+.content article {
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    background-color:#EAEAEA;
+}
+<<<<<<< HEAD
+article:nth-child(1) img{
+=======
+#conf img{
+>>>>>>> b107f878baf9cba69f9e4365ffe3d12c1060f551
+	float: left;
+	width: 21%;
+	margin-right: 15px;
+	border:1px solid #B7B7B7;
+}
+<<<<<<< HEAD
+article:nth-child(2) img{
+=======
+#plovdiv img{
+>>>>>>> b107f878baf9cba69f9e4365ffe3d12c1060f551
+	width:40%;
+	margin-right: 20%;
+	border:1px solid #B7B7B7;
+}
+<<<<<<< HEAD
+article:nth-child(3) img{
+=======
+#plevneleiev img{
+>>>>>>> b107f878baf9cba69f9e4365ffe3d12c1060f551
+	width: 60%;
+	margin-left:20%;
+	margin-bottom: 2%;
+	border:1px solid #B7B7B7;
+}
+<<<<<<< HEAD
+article:nth-child(4) img{
+=======
+#bezuhanova img{
+>>>>>>> b107f878baf9cba69f9e4365ffe3d12c1060f551
+	width: 25%;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	border:1px solid #B7B7B7;
+}
+<<<<<<< HEAD
+
+=======
+#sns img{
+	width: 60%;
+	margin-bottom: 5px;
+	border:1px solid #B7B7B7;
+}
+#nakov img{
+	width: 60%;
+	margin-bottom: 5px;
+	border:1px solid #B7B7B7;
+}
+#peshev img{
+	width: 60%;
+	margin-bottom: 5px;
+	border:1px solid #B7B7B7;
+}
+>>>>>>> b107f878baf9cba69f9e4365ffe3d12c1060f551
+.content article footer {
+    font-style:italic;
+}
+@media (max-width:360px) {
+   .content article header h1 {
+	font-size: 1em;
+}
